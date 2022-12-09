@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/ability371/domain"
+    "github.com/toodo-fun/topsdk/ability371/domain"
 )
 
 type TaobaoTbkCouponGetResponse struct {
 
     /*
-        System request id
+       System request id
     */
     RequestId string `json:"request_id,omitempty" `
 
     /*
-        System body
+       System body
     */
     Body string
 
     /*
-        data
+       data
     */
-    Data  domain.TaobaoTbkCouponGetMapData `json:"data,omitempty" `
+    Data domain.TaobaoTbkCouponGetMapData `json:"data,omitempty" `
 }

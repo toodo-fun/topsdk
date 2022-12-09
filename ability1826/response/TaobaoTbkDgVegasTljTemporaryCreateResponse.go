@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/ability1826/domain"
+	"github.com/toodo-fun/topsdk/ability1826/domain"
 )
 
 type TaobaoTbkDgVegasTljTemporaryCreateResponse struct {
 
-    /*
-        System request id
-    */
-    RequestId string `json:"request_id,omitempty" `
+	/*
+	   System request id
+	*/
+	RequestId string `json:"request_id,omitempty" `
 
-    /*
-        System body
-    */
-    Body string
+	/*
+	   System body
+	*/
+	Body string
 
-    /*
-        result
-    */
-    Result  domain.TaobaoTbkDgVegasTljTemporaryCreateResult `json:"result,omitempty" `
+	/*
+	   result
+	*/
+	Result domain.TaobaoTbkDgVegasTljTemporaryCreateResult `json:"result,omitempty" `
 }

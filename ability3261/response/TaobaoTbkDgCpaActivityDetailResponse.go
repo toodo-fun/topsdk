@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/ability3261/domain"
+	"github.com/toodo-fun/topsdk/ability3261/domain"
 )
 
 type TaobaoTbkDgCpaActivityDetailResponse struct {
 
-    /*
-        System request id
-    */
-    RequestId string `json:"request_id,omitempty" `
+	/*
+	   System request id
+	*/
+	RequestId string `json:"request_id,omitempty" `
 
-    /*
-        System body
-    */
-    Body string
+	/*
+	   System body
+	*/
+	Body string
 
-    /*
-        接口返回model
-    */
-    Result  domain.TaobaoTbkDgCpaActivityDetailResult `json:"result,omitempty" `
+	/*
+	   接口返回model
+	*/
+	Result domain.TaobaoTbkDgCpaActivityDetailResult `json:"result,omitempty" `
 }

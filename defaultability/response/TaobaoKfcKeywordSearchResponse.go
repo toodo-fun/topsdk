@@ -1,23 +1,23 @@
 package response
 
 import (
-    "topsdk/defaultability/domain"
+    "github.com/toodo-fun/topsdk/defaultability/domain"
 )
 
 type TaobaoKfcKeywordSearchResponse struct {
 
     /*
-        System request id
+       System request id
     */
     RequestId string `json:"request_id,omitempty" `
 
     /*
-        System body
+       System body
     */
     Body string
 
     /*
-        KFC 关键词过滤匹配结果
+       KFC 关键词过滤匹配结果
     */
-    KfcSearchResult  domain.TaobaoKfcKeywordSearchKfcSearchResult `json:"kfc_search_result,omitempty" `
+    KfcSearchResult domain.TaobaoKfcKeywordSearchKfcSearchResult `json:"kfc_search_result,omitempty" `
 }
